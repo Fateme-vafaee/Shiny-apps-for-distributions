@@ -1,0 +1,13 @@
+name: PlotDistributions
+title: PlotDistributions
+username:
+account: honey-vafaee
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3427194
+bundleId: 4023533
+url: https://honey-vafaee.shinyapps.io/PlotDistributions/
+when: 1608751575.04808
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: BernoulliIU.R|BernoulliServer.R|BinomialIU.R|BinomialServer.R|GeometricServer.R|GeometricUI.R|HypergeometricServer.R|HypergeometricUI.R|Negative_BinomialServer.R|Negative_BinomialUI.R|PlotDistribution/server.R|PlotDistribution/ui.R
