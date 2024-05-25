@@ -18,7 +18,7 @@
 
 
 <div align="center">
-  <img src="Logo.PNG" alt="Alt text">
+  <a href="https://honey-vafaee.shinyapps.io/PlotDistributions/"><img src="Logo.PNG" alt="Alt text"></a>
 </div>
 
 <!-- TABLE OF CONTENTS -->
