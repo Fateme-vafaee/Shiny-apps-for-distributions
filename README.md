@@ -93,7 +93,7 @@ The following methods are implemented in the Shiny app for each distribution:
 - Cumulative Distribution Function (CDF)
 - Survival Function (1 - CDF)
 
-  
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
   <h2 id ="Code_Explanation"> Code Explanation</h2>
 The Shiny app code is structured into the following components:
 
@@ -141,15 +141,11 @@ Contributions to this project are welcome. You can contribute by improving the c
 </p>
 <h2 id="Languages_Used"> Languages Used</h2>
 R Packages 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 <h3 id="Contact"> Contact</h3>
 
 vafaeeshaarbaf@gmail.com
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
