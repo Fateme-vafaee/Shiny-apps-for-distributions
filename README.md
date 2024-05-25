@@ -43,44 +43,67 @@
 # Fibonacci Series Implementations in R
 
 ## Overview
-This repository contains several implementations of algorithms to compute the Fibonacci series in R. Each method showcases a different programming approach or mathematical technique, demonstrating various trade-offs in time and space complexity.
+This Shiny app illustrates the Probability Density Function (PDF), Cumulative Distribution Function (CDF), and survival functions of various distributions: Bernoulli, Binomial, Hypergeometric, Geometric, and Negative Binomial.
+
+## Features
+
+- Select a distribution from the dropdown menu.
+- Modify the parameters of the chosen distribution.
+- Change the input value to see the updated plots.
+- Shade the relevant areas under the curve for the CDF and survival plots.
+
+## Distributions Included
+
+- Bernoulli
+- Binomial
+- Hypergeometric
+- Geometric
+- Negative Binomial
+
 
 ## Methods Implemented
-1. **Recursive Implementation**: A straightforward approach using the classic recursive definition of Fibonacci numbers.
-2. **Dynamic Programming (Bottom-Up Approach)**: Utilizes memoization to store previously calculated values, reducing the computational overhead.
-3. **Matrix Exponentiation**: Leverages the power of matrix exponentiation to calculate Fibonacci numbers.
-4. **Optimized Matrix Exponentiation**: Improves the matrix exponentiation approach by using fast exponentiation to reduce the time complexity significantly.
+The following methods are implemented in the Shiny app for each distribution:
 
-## Installation
-To run these scripts, you need R installed on your machine. You can download and install R from [CRAN](https://cran.r-project.org/). After installing R, you can clone this repository to your local machine:
-```bash
-git clone https://github.com/yourusername/fibonacci-series-r.git
-cd fibonacci-series-r
-```
+### Bernoulli Distribution
+- Probability Mass Function (PMF)
+- Cumulative Distribution Function (CDF)
+- Survival Function (1 - CDF)
+
+### Binomial Distribution
+- Probability Mass Function (PMF)
+- Cumulative Distribution Function (CDF)
+- Survival Function (1 - CDF)
+
+### Hypergeometric Distribution
+- Probability Mass Function (PMF)
+- Cumulative Distribution Function (CDF)
+- Survival Function (1 - CDF)
+
+### Geometric Distribution
+- Probability Mass Function (PMF)
+- Cumulative Distribution Function (CDF)
+- Survival Function (1 - CDF)
+
+### Negative Binomial Distribution
+- Probability Mass Function (PMF)
+- Cumulative Distribution Function (CDF)
+- Survival Function (1 - CDF)
+
+## Usage
+
+Visit the live app at: [ShinyDistributionsApp](https://honey-vafaee.shinyapps.io/PlotDistributions/)
+
+## Running Locally
+
+To run the app locally, follow these steps:
+
+1. Ensure you have R and RStudio installed.
+2. Install the required packages:
+   ```r
+   install.packages(c("shiny", "ggplot2"))```
 
 
 
-<h2 id='Usage'>Usage</h2>
-<p>
-Each Fibonacci calculation method is implemented in a separate R script. You can execute each script directly from the R command line or through an R script execution command in the terminal. For example:
-</p>
-
-Rscript Recursive_Fibonacci.R
-
-
-<h2 id='Complexity_Analysis'>Complexity Analysis</h2>
-<h3>Recursive Implementation</h3>
-<strong>Time Complexity:</strong> Exponential, specifically O(2^n), as each function call spawns two more calls.<br>
-<strong>Space Complexity:</strong> O(n) due to the depth of the recursion stack.<br>
-<h3>Dynamic Programming</h3>
-<strong>Time Complexity:</strong> O(n), as it computes each Fibonacci number once.<br>
-<strong>Space Complexity:</strong> O(n) for storing the Fibonacci sequence up to n.<br>
-<h3>Matrix Exponentiation</h3>
-<strong>Time Complexity:</strong> O(n^3) due to matrix multiplication in each loop iteration.<br>
-<strong>Space Complexity:</strong> O(1), constant space for storing matrices.<br>
-<h3>Optimized Matrix Exponentiation</h3>
-<strong>Time Complexity:</strong> O(log n) because of fast exponentiation.<br>
-<strong>Space Complexity:</strong> O(1), as it requires a fixed amount of space for matrices.<br>
 
 
 <h2 id = 'Contributing'>Contributing</h2>
