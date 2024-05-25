@@ -8,7 +8,7 @@
 <br />
 <div align="center">
 
-<h3 align="center">Fibonacci sequence </h3>
+<h3 align="center">Shiny apps for distributions </h3>
 
   <p align="center">
     Department of Bioinformatics, IBB, University of Tehran
@@ -18,7 +18,7 @@
 
 
 <div align="center">
-  <img src="Logo.png" alt="Alt text">
+  <img src="Logo.PNG" alt="Alt text">
 </div>
 
 <!-- TABLE OF CONTENTS -->
