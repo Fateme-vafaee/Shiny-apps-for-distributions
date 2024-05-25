@@ -26,33 +26,37 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#Overview">Overview</a>
+      <a href="#Usage">Shiny apps for distributions Link</a>
     </li>
-    <li><a href="#Methods">Methods Implemented</a></li>
-    <li><a href="#Installation">Installation</a></li>
-    <li><a href="#Usage">Usage</a></li>
-    <li><a href="#Complexity_Analysis">Complexity Analysis</a></li>
+    <li><a href="#Shiny">Shiny apps for distributions Implementations in R</a></li>
+    <li><a href="#Overview">Overview</a></li>
+    <li><a href="#Features">Features</a></li>
+    <li><a href="#Distributions">Distributions Included</a></li>
+    <li><a href="#Code_Explanation">Code Explanation</a></li>
     <li><a href="#Languages_Used">Languages Used</a></li>
     <li><a href="#Contact">Contact</a></li>
   </ol>
 </details>
 
+<h2 id="Usage >Usage</h2>
+
+Visit the live app at: [ShinyDistributionsApp](https://honey-vafaee.shinyapps.io/PlotDistributions/)
 
 
 <!-- ABOUT THE PROJECT -->
-# Shiny apps for distributions Implementations in R
+<h1 id="Shiny"> Shiny apps for distributions Implementations in R</h1>
 
-## Overview
+<h2 id="Overview"> Overview</h2>
 This Shiny app illustrates the Probability Density Function (PDF), Cumulative Distribution Function (CDF), and survival functions of various distributions: Bernoulli, Binomial, Hypergeometric, Geometric, and Negative Binomial.
 
-## Features
+<h2 id="Features"> Features </h2>
 
 - Select a distribution from the dropdown menu.
 - Modify the parameters of the chosen distribution.
 - Change the input value to see the updated plots.
 - Shade the relevant areas under the curve for the CDF and survival plots.
 
-## Distributions Included
+<h2 id="Distributions"> Distributions Included</h2>
 
 - Bernoulli
 - Binomial
@@ -61,7 +65,7 @@ This Shiny app illustrates the Probability Density Function (PDF), Cumulative Di
 - Negative Binomial
 
 
-## Methods Implemented
+<h2 id="Distributions"> Distributions Implemented</h2>
 The following methods are implemented in the Shiny app for each distribution:
 
 ### Bernoulli Distribution
@@ -88,8 +92,9 @@ The following methods are implemented in the Shiny app for each distribution:
 - Probability Mass Function (PMF)
 - Cumulative Distribution Function (CDF)
 - Survival Function (1 - CDF)
-## Code Explanation
 
+  
+  <h2 id ="Code_Explanation"> Code Explanation</h2>
 The Shiny app code is structured into the following components:
 
 ### `ui.R`
@@ -116,9 +121,6 @@ This folder contains R scripts that define functions for calculating the PDF, CD
 - **Cumulative Distribution Function (CDF):** Function to calculate the cumulative probability up to each outcome.
 - **Survival Function:** Function to calculate the survival probability (1 - CDF) for each outcome.
 
-## Usage
-
-Visit the live app at: [ShinyDistributionsApp](https://honey-vafaee.shinyapps.io/PlotDistributions/)
 
 ## Running Locally
 
@@ -142,7 +144,7 @@ R Packages
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
-## Contact
+<h3 id="Contact"> Contact</h3>
 
 vafaeeshaarbaf@gmail.com
 
