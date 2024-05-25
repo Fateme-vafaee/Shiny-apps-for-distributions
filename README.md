@@ -40,7 +40,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-# Fibonacci Series Implementations in R
+# Shiny apps for distributions Implementations in R
 
 ## Overview
 This Shiny app illustrates the Probability Density Function (PDF), Cumulative Distribution Function (CDF), and survival functions of various distributions: Bernoulli, Binomial, Hypergeometric, Geometric, and Negative Binomial.
@@ -88,6 +88,33 @@ The following methods are implemented in the Shiny app for each distribution:
 - Probability Mass Function (PMF)
 - Cumulative Distribution Function (CDF)
 - Survival Function (1 - CDF)
+## Code Explanation
+
+The Shiny app code is structured into the following components:
+
+### `ui.R`
+This file defines the user interface of the Shiny app. It includes:
+- **Dropdown Menu:** Allows users to select the distribution they want to visualize.
+- **Parameter Inputs:** Provides sliders or input fields to adjust the parameters of the chosen distribution.
+- **Plot Outputs:** Displays the PDF, CDF, and survival function plots.
+
+### `server.R`
+This file contains the server logic of the Shiny app. It includes:
+- **Reactive Expressions:** React to user inputs and update the plots accordingly.
+- **Plotting Functions:** Generate the plots for the PDF, CDF, and survival functions using `ggplot2`.
+- **Shading Areas:** Highlight the relevant areas under the curve for the CDF and survival function plots.
+
+### `app.R`
+This is the main file that combines `ui.R` and `server.R` to create the Shiny app. It includes:
+- **UI Definition:** Calls the `ui` function to define the user interface.
+- **Server Definition:** Calls the `server` function to define the server logic.
+- **Shiny App:** Uses the `shinyApp` function to create and run the Shiny app.
+
+### `Distributions` Folder
+This folder contains R scripts that define functions for calculating the PDF, CDF, and survival functions for each distribution. Each script includes:
+- **Probability Mass Function (PMF):** Function to calculate the probability of each outcome.
+- **Cumulative Distribution Function (CDF):** Function to calculate the cumulative probability up to each outcome.
+- **Survival Function:** Function to calculate the survival probability (1 - CDF) for each outcome.
 
 ## Usage
 
